@@ -1,6 +1,6 @@
 module "cloud_relay" {
     source          = "../../module/main"
-    name            = "r"
+    name            = "Test"
     env             = "Test"
     cidr            = "192.168.0.0/26"
     private_subnets = ["192.168.0.0/28", "192.168.0.16/28"]
