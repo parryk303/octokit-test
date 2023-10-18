@@ -14,12 +14,12 @@ vpn_connection_tunnel1_phase_1_lifetime = ""
 vpn_connection_tunnel1_phase1_dh_group_numbers = [24]
 vpn_connection_tunnel1_phase2_encryption_algorithms = Input is not an array
 vpn_connection_tunnel1_phase2_integrity_algorithms = Input is not an array
-vpn_connection_tunnel1_phase_2_lifetime = ""
+vpn_connection_tunnel1_phase_2_lifetime = "3600"
 vpn_connection_tunnel1_phase2_dh_group_numbers = [24]
-vpn_connection_rekey_margin_time = 
-vpn_connection_rekey_fuzz = 
-vpn_connection_replay_window = 
-vpn_customer_gateway_bgp_asn = 
+vpn_connection_rekey_margin_time = 540
+vpn_connection_rekey_fuzz = 100
+vpn_connection_replay_window = 9999999
+vpn_customer_gateway_bgp_asn = 65002
 vpn_connection_dead_peer_detection = 30
 }
 
