@@ -3,22 +3,22 @@ module "cloud_relay" {
 source = "../../module/main"
 name = "t"
 env = var.env
-cidr = [&#34;10.1.0.0/26&#34;]
+cidr = ["10.1.0.0/26"]
 ring_central_subnet = ["10.1.0.0/28"]
 
-vpn_connection_static_routes_destinations = [&#34;10.1.1.19&#34;]
-customer_gateway_ip_address = ["200.1.2.3"]
-vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES256"]
-vpn_connection_tunnel1_phase1_integrity_algorithms = ["SHA2-512"]
-vpn_connection_tunnel1_phase_1_lifetime = "28800"
+vpn_connection_static_routes_destinations = ["10.1.1.19", "10.1.1.19", "10.1.1.19"]
+customer_gateway_ip_address = ["10.1.1.19"]
+vpn_connection_tunnel1_phase1_encryption_algorithms = Input is not an array
+vpn_connection_tunnel1_phase1_integrity_algorithms = Input is not an array
+vpn_connection_tunnel1_phase_1_lifetime = ""
 vpn_connection_tunnel1_phase1_dh_group_numbers = [24]
-vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES256"]
-vpn_connection_tunnel1_phase2_integrity_algorithms = ["SHA2-512"]
+vpn_connection_tunnel1_phase2_encryption_algorithms = Input is not an array
+vpn_connection_tunnel1_phase2_integrity_algorithms = Input is not an array
 vpn_connection_tunnel1_phase_2_lifetime = "3600"
 vpn_connection_tunnel1_phase2_dh_group_numbers = [24]
 vpn_connection_rekey_margin_time = 540
 vpn_connection_rekey_fuzz = 100
-vpn_connection_replay_window = 1024
+vpn_connection_replay_window = 9999999
 vpn_customer_gateway_bgp_asn = 65002
 vpn_connection_dead_peer_detection = 30
 }
