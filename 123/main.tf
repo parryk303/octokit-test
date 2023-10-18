@@ -7,7 +7,7 @@
     private_subnets = ["192.168.0.0/28", "192.168.0.16/28"]
     public_subnets  = ["192.168.0.32/27"]
   
-    vpn_connection_static_routes_destinations           = 10.1.1.19,10.1.1.19,10.1.1.19
+    vpn_connection_static_routes_destinations           = [&#34;\&#34;10.1.1.19\&#34;&#34;,&#34;\&#34;10.1.1.19\&#34;&#34;,&#34;\&#34;10.1.1.19\&#34;&#34;]
     customer_gateway_ip_address                         = ["200.1.2.3"]
     vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES256"]
     vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA2-512"]
