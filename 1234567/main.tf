@@ -3,10 +3,10 @@ module "cloud_relay" {
 source = "../../module/main"
 name = "t"
 env = var.env
-cidr = [[&#39;10.1.0.0/26&#39;]]
+cidr = [&#34;10.1.0.0/26&#34;]
 ring_central_subnet = ["10.1.0.0/28"]
 
-vpn_connection_static_routes_destinations = [[&#39;10.1.1.19&#39;]]
+vpn_connection_static_routes_destinations = [&#34;10.1.1.19&#34;]
 customer_gateway_ip_address = ["200.1.2.3"]
 vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES256"]
 vpn_connection_tunnel1_phase1_integrity_algorithms = ["SHA2-512"]
