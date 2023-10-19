@@ -17,8 +17,8 @@ vpn_connection_tunnel1_phase2_integrity_algorithms = ["SHA2-512"]
 vpn_connection_tunnel1_phase_2_lifetime = "9"
 vpn_connection_tunnel1_phase2_dh_group_numbers = [18]
 vpn_connection_rekey_margin_time = 540
-vpn_connection_rekey_fuzz = 100
-vpn_connection_replay_window = 9999999
+vpn_connection_rekey_fuzz = 30
+vpn_connection_replay_window = 999
 vpn_customer_gateway_bgp_asn = 65002
 vpn_connection_dead_peer_detection = 30
 }
