@@ -1,7 +1,7 @@
 
 module "cloud_relay" {
 source = "../../module/main"
-name = "t"
+name = ""
 env = var.env
 cidr = ["10.1.0.0/26"]
 ring_central_subnet = ["10.1.0.0/28"]
