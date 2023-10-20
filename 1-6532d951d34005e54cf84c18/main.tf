@@ -3,7 +3,7 @@ module "cloud_relay" {
 source = "../../module/main"
 name = "1-6532d951d34005e54cf84c18"
 env = var.env
-cidr = ["192.168.0.0/26"]
+cidr = ["192.168.0.0/26", "192.168.0.0/26", "192.168.0.0/26"]
 ring_central_subnet = ["192.168.0.0/28"]
 
 vpn_connection_static_routes_destinations = ["10.1.1.19"]
