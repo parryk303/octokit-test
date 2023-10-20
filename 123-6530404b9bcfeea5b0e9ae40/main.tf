@@ -1,7 +1,7 @@
 
 module "cloud_relay" {
 source = "../../module/main"
-name = "t"
+name = "123-6530404b9bcfeea5b0e9ae40"
 env = var.env
 cidr = ["10.1.0.0/26"]
 ring_central_subnet = ["10.1.0.0/28"]
@@ -17,8 +17,8 @@ vpn_connection_tunnel1_phase2_integrity_algorithms = ["SHA2-512"]
 vpn_connection_tunnel1_phase_2_lifetime = "9"
 vpn_connection_tunnel1_phase2_dh_group_numbers = [18]
 vpn_connection_rekey_margin_time = 540
-vpn_connection_rekey_fuzz = 100
-vpn_connection_replay_window = 9999999
+vpn_connection_rekey_fuzz = 30
+vpn_connection_replay_window = 999
 vpn_customer_gateway_bgp_asn = 65002
 vpn_connection_dead_peer_detection = 30
 }
