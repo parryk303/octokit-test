@@ -1,0 +1,6 @@
+{
+  "documentURL": "https://test_url.com",
+  "connectivityType": "VPN",
+  "name": "12-6541e17a540a4b9ac03c34fe",
+  "projectData": {"fielddpdTimeoutAction":"restart","fieldvpnConnectionLocalIpv4NetworkCidr":"10.1.0.0/26","fieldvpnConnectionStaticRoutesOnly":true,"fieldvpnCustomerGatewayBgpAsn":"65000","fieldvpnConnectionTunnel1Phase1Lifetime":"3600","fieldvpnConnectionTunnel1Phase2Lifetime":"3600","fieldvpnConnectionRekeyMarginTime":"540","fieldvpnConnectionRekeyFuzz":"100","fieldvpnConnectionReplayWindow":"1024","fieldenableVpnBuild":true,"fieldcidr":["192.168.0.0/26"],"fieldringCentralSubnet":"172.31.0.0/28","fieldsendCertificate":true,"fieldcertificatePath":"text-path/","fieldcertificatePassphrase":"text","fieldvpnConnectionStaticRoutesDestinations":["10.1.1.19"],"fieldcustomerGatewayIpAddress":["10.1.1.19"],"fieldvpnConnectionTunnel1Phase1EncryptionAlgorithms":"AES128","fieldvpnConnectionTunnel1Phase1IntegrityAlgorithms":"SHA1","fieldvpnConnectionTunnel1Phase1DhGroupNumbers":"20","fieldvpnConnectionTunnel1Phase2EncryptionAlgorithms":"AES128","fieldvpnConnectionTunnel1Phase2IntegrityAlgorithms":"SHA1","fieldvpnConnectionTunnel1Phase2DhGroupNumbers":"14","fieldvpnConnectionTunnel1IkeVersions":"ikev1","fieldvpnConnectionTunnel2IkeVersions":"ikev1","fieldvpnConnectionRemoteIpv4NetworkCidr":"192.168.0.0/26"}
+}
