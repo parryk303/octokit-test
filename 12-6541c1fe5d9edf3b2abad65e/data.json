@@ -2,5 +2,5 @@
   "documentURL": "https://test_url.com",
   "connectivityType": "VPN"
   "name": "12-6541c1fe5d9edf3b2abad65e",
-  "projectData": "{&#34;fielddpdTimeoutAction&#34;:&#34;restart&#34;,&#34;fieldvpnConnectionLocalIpv4NetworkCidr&#34;:&#34;none&#34;,&#34;fieldvpnConnectionStaticRoutesOnly&#34;:true,&#34;fieldvpnCustomerGatewayBgpAsn&#34;:&#34;65000&#34;,&#34;fieldvpnConnectionTunnel1Phase1Lifetime&#34;:&#34;3600&#34;,&#34;fieldvpnConnectionTunnel1Phase2Lifetime&#34;:&#34;3600&#34;,&#34;fieldvpnConnectionRekeyMarginTime&#34;:&#34;540&#34;,&#34;fieldvpnConnectionRekeyFuzz&#34;:&#34;100&#34;,&#34;fieldvpnConnectionReplayWindow&#34;:&#34;1024&#34;}"
+  "projectData": "{"fielddpdTimeoutAction":"restart","fieldvpnConnectionLocalIpv4NetworkCidr":"none","fieldvpnConnectionStaticRoutesOnly":true,"fieldvpnCustomerGatewayBgpAsn":"65000","fieldvpnConnectionTunnel1Phase1Lifetime":"3600","fieldvpnConnectionTunnel1Phase2Lifetime":"3600","fieldvpnConnectionRekeyMarginTime":"540","fieldvpnConnectionRekeyFuzz":"100","fieldvpnConnectionReplayWindow":"1024"}"
 }
