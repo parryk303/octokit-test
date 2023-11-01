@@ -1,6 +1,6 @@
 {
   "documentURL": "https://test_url.com",
-  "connectivityType": "VPN"
+  "connectivityType": "VPN",
   "name": "12-6541c1fe5d9edf3b2abad65e",
-  "projectData": "{"fielddpdTimeoutAction":"restart","fieldvpnConnectionLocalIpv4NetworkCidr":"none","fieldvpnConnectionStaticRoutesOnly":true,"fieldvpnCustomerGatewayBgpAsn":"65000","fieldvpnConnectionTunnel1Phase1Lifetime":"3600","fieldvpnConnectionTunnel1Phase2Lifetime":"3600","fieldvpnConnectionRekeyMarginTime":"540","fieldvpnConnectionRekeyFuzz":"100","fieldvpnConnectionReplayWindow":"1024"}"
+  "projectData": {"fielddpdTimeoutAction":"restart","fieldvpnConnectionLocalIpv4NetworkCidr":"none","fieldvpnConnectionStaticRoutesOnly":true,"fieldvpnCustomerGatewayBgpAsn":"65000","fieldvpnConnectionTunnel1Phase1Lifetime":"3600","fieldvpnConnectionTunnel1Phase2Lifetime":"3600","fieldvpnConnectionRekeyMarginTime":"540","fieldvpnConnectionRekeyFuzz":"100","fieldvpnConnectionReplayWindow":"1024"}
 }
