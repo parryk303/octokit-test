@@ -5,7 +5,6 @@ name = "12-6541e17a540a4b9ac03c34fe"
 env = var.env
 cidr = ["192.168.0.0/26"]
 ring_central_subnet = ["172.31.0.0/28"]
-
 vpn_connection_static_routes_destinations = ["10.1.1.19"]
 customer_gateway_ip_address = ["10.1.1.19"]
 vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
