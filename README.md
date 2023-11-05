@@ -1,2 +1,1 @@
-# octokit-test
-Exploring octokit api
+Hello, world!
