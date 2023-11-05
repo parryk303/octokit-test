@@ -3,7 +3,7 @@ module "cloud_relay" {
 source = "../../module/main"
 name = "12-654531736d9c072cfd934429"
 env = var.env
-cidr = Input is not an array
+cidr = ["172.31.0.0/28"]
 ring_central_subnet = ["172.31.0.0/28"]
 vpn_connection_static_routes_destinations = Input is not an array
 customer_gateway_ip_address = Input is not an array
