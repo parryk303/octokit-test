@@ -1,0 +1,26 @@
+name: Update README
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Sleep for 5 minutes
+        run: sleep 300  # 300 seconds = 5 minutes
+
+      - name: Update README
+        run: |
+          echo "Hello, world!" > README.md
+          git config user.name "Your Name"
+          git config user.email "youremail@example.com"
+          git add README.md
+          git commit -m "Update README"
+          git push
