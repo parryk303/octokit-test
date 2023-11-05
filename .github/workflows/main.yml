@@ -16,13 +16,18 @@ jobs:
       - name: Sleep for 120 seconds
         run: sleep 100  # 300 seconds = 5 minutes
 
+      - name: Get PR Number
+        id: pr
+        run: echo "::set-output name=pr_number::${{ github.event.number }}"
+
       - name: Update README
         run: |
-          echo "Hello, world!" > README.md
+          PR_NUMBER=$(cat README.md)
+          echo "PR Number: ${PR_NUMBER} (#${{ steps.pr.outputs.pr_number }})" > README.md
           git config user.name "Your Name"
           git config user.email "youremail@example.com"
           git add README.md
-          git commit -m "Update README"
+          git commit -m "Add PR Number to README"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
