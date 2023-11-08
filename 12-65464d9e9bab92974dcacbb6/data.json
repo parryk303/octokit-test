@@ -2,5 +2,5 @@
     "documentURL": "https://test_url.com",
     "connectivityType": "VPN",
     "name": "12-65464d9e9bab92974dcacbb6",
-    "projectData": {"fielddpdTimeoutAction":"restart","fieldcustomerIpv4PrivateCidr":"none","fieldrouting":"static","fieldcustomerGatewayBgpAsn":"65000","fieldphase1Lifetime":"3600","fieldphase2Lifetime":"3600","fieldrekeyMarginTime":"540","fieldrekeyFuzz":"100","fieldreplayWindow":"1024","fieldringCentralSubnet":"172.31.0.0/28","fieldsendCertificate":true,"fieldikeVersions":"ikev1","fieldphase2DhGroupNumbers":"2"}
+    "projectData": {"fielddpdTimeoutAction":"restart","fieldcustomerIpv4PrivateCidr":"none","fieldrouting":"static","fieldcustomerGatewayBgpAsn":"65000","fieldphase1Lifetime":"3600","fieldphase2Lifetime":"3600","fieldrekeyMarginTime":"540","fieldrekeyFuzz":"1004","fieldreplayWindow":"1024","fieldringCentralSubnet":"172.31.0.0/28","fieldsendCertificate":true,"fieldikeVersions":"ikev1","fieldphase2DhGroupNumbers":"2"}
 }
