@@ -1,0 +1,6 @@
+{
+    "documentURL": "https://test_url.com",
+    "connectivityType": "VPN",
+    "name": "12344-6552db46d5a9c7fc9854a5d2",
+    "projectData": {"fielddpdTimeoutAction":"restart","fieldcustomerIpv4PrivateCidr":"none","fieldrouting":"static","fieldcustomerGatewayBgpAsn":"65000","fieldphase1Lifetime":"3600","fieldphase2Lifetime":"3600","fieldrekeyMarginTime":"540","fieldrekeyFuzz":"100","fieldreplayWindow":"1024"}
+}
