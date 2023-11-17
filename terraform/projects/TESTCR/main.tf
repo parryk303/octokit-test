@@ -3,22 +3,22 @@ module "cloud_relay" {
 source = "../../module/main"
 name = "TESTCR"
 env = var.env
-cidr = ['172.31.0.0/28']
-ring_central_subnet = ["172.31.0.0/28"]
-vpn_connection_static_routes_destinations = Input is not an array
-customer_gateway_ip_address = Input is not an array
-vpn_connection_tunnel1_phase1_encryption_algorithms = [""]
-vpn_connection_tunnel1_phase1_integrity_algorithms = [""]
+cidr = ["10.1.0.0/28"]
+ring_central_subnet = ["10.1.0.0/28"]
+vpn_connection_static_routes_destinations = No vpn_connection_static_routes_destinations
+customer_gateway_ip_address = ["10.1.0.0"]
+vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
+vpn_connection_tunnel1_phase1_integrity_algorithms = ["SHA1"]
 vpn_connection_tunnel1_phase_1_lifetime = "3600"
-vpn_connection_tunnel1_phase1_dh_group_numbers = []
-vpn_connection_tunnel1_phase2_encryption_algorithms = [""]
-vpn_connection_tunnel1_phase2_integrity_algorithms = [""]
-vpn_connection_tunnel1_phase_2_lifetime = ""
-vpn_connection_tunnel1_phase2_dh_group_numbers = []
+vpn_connection_tunnel1_phase1_dh_group_numbers = [20]
+vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES128"]
+vpn_connection_tunnel1_phase2_integrity_algorithms = ["SHA2-384"]
+vpn_connection_tunnel1_phase_2_lifetime = "3600"
+vpn_connection_tunnel1_phase2_dh_group_numbers = [2]
 vpn_connection_rekey_margin_time = 540
-vpn_connection_rekey_fuzz = 100
+vpn_connection_rekey_fuzz = 1007
 vpn_connection_replay_window = 1024
-vpn_customer_gateway_bgp_asn = 65002
+vpn_customer_gateway_bgp_asn = 65000
 vpn_connection_dead_peer_detection = 30
 }
 
