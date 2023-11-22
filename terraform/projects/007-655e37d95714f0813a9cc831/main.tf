@@ -4,8 +4,8 @@
       name                = "007-655e37d95714f0813a9cc831"
       env                 = var.env
       cidr                = "172.31.0.0/28"
-      private_subnets = ["172.31.0.0/28", "172.31.0.16/28"]
-      public_subnets  = ["172.31.0.32/27"]
+      private_subnets     = ["172.31.0.0/28", "172.31.0.16/28"]
+      public_subnets      = ["172.31.0.32/27"]
 
       relay_package_location      = "lambdas_code/relay-lambda-code.zip"
       authorizer_package_location = "lambdas_code/authorizer-lambda-code.zip"
@@ -25,51 +25,6 @@
       vpn_connection_replay_window                        = 1024
       vpn_customer_gateway_bgp_asn                        = 65000
       vpn_connection_dead_peer_detection                  = 30
-
-      vpn_connection_local_ipv4_network_cidr              = none
-      vpn_connection_remote_ipv4_network_cidr             = 172.31.0.0/28,172.31.0.16/28
-      vpn_connection_static_routes_only                   = static
-      vpn_connection_startup_action                       = start
-      vpn_connection_tunnel1_ike_versions                 = ikev2
 }
 
 
-
-    output "project_name" {
-      value = module.cloud_relay.name
-    }
-
-    output "project_env" {
-      value = var.env
-    }
-
-    output "main_regions" {
-      value = module.cloud_relay.main_regions
-    }
-
-    output "backup_regions" {
-      value = module.cloud_relay.backup_regions
-    }
-
-    output "API_url" {
-      value = module.cloud_relay.API_url
-    }
-
-    output "backup_API_url" {
-      value = module.cloud_relay.backup_API_url
-    }
-
-    output "apisecret" {
-      value = module.cloud_relay.apisecret
-    sensitive = true
-    }
-
-    output "api_key" {
-      value = module.cloud_relay.api_key
-    sensitive = true
-    }
-
-    output "backup_api_key" {
-      value = module.cloud_relay.backup_api_key
-    sensitive = true
-    }
