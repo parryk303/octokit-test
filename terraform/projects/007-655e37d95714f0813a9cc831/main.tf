@@ -12,7 +12,7 @@
       relay_package_location      = "lambdas_code/relay-lambda-code.zip"
       authorizer_package_location = "lambdas_code/authorizer-lambda-code.zip"
 
-      vpn_connection_static_routes_destinations           = Input is not an array
+      vpn_connection_static_routes_destinations           = []
       customer_gateway_ip_address                         = ["172.31.0.0"]
       vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
       vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA1"]
@@ -32,7 +32,7 @@
       vpn_connection_remote_ipv4_network_cidr             = 172.31.0.0/27
       vpn_connection_static_routes_only                   = static
       vpn_connection_startup_action                       = start
-      vpn_connection_tunnel1_ike_versions                 = ikev1
+      vpn_connection_tunnel1_ike_versions                 = ikev2
 }
 
 
