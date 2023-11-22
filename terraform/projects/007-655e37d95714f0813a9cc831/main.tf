@@ -4,10 +4,8 @@
       name                = "007-655e37d95714f0813a9cc831"
       env                 = var.env
       cidr                = "172.31.0.0/28"
-      private_subnets = [172.31.0.0/27]
-      public_subnets  = [172.31.0.32/27]
-
-      ring_central_subnet = ["172.31.0.0/28"]
+      private_subnets = ["172.31.0.0/28", "172.31.0.16/28"]
+      public_subnets  = ["172.31.0.32/27"]
 
       relay_package_location      = "lambdas_code/relay-lambda-code.zip"
       authorizer_package_location = "lambdas_code/authorizer-lambda-code.zip"
@@ -17,7 +15,7 @@
       vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
       vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA1"]
       vpn_connection_tunnel1_phase_1_lifetime             = "3600"
-      vpn_connection_tunnel1_phase1_dh_group_numbers      = [2]
+      vpn_connection_tunnel1_phase1_dh_group_numbers      = [14]
       vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES256"]
       vpn_connection_tunnel1_phase2_integrity_algorithms  = ["SHA1"]
       vpn_connection_tunnel1_phase_2_lifetime             = "3600"
@@ -29,7 +27,7 @@
       vpn_connection_dead_peer_detection                  = 30
 
       vpn_connection_local_ipv4_network_cidr              = none
-      vpn_connection_remote_ipv4_network_cidr             = 172.31.0.0/27
+      vpn_connection_remote_ipv4_network_cidr             = 172.31.0.0/28,172.31.0.16/28
       vpn_connection_static_routes_only                   = static
       vpn_connection_startup_action                       = start
       vpn_connection_tunnel1_ike_versions                 = ikev2
