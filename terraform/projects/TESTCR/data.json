@@ -1,6 +1,0 @@
-{
-    "documentURL": "https://test_url.com",
-    "connectivityType": "VPN",
-    "name": "TESTCR",
-    "projectData": {"_dpdTimeoutAction":"restart","_customerIpv4PrivateCidr":"10.1.0.0/28","_routing":"static","_customerGatewayBgpAsn":"65000","_phase1Lifetime":"3600","_phase2Lifetime":"3600","_rekeyMarginTime":"540","_rekeyFuzz":"1007","_replayWindow":"1024","_ringCentralSubnet":"10.1.0.0/28","_certificatePassphrase":"text","_phase1EncryptionAlgorithms":"AES128","_cidr":["10.1.0.0/28"],"_customerPublicIp":["10.1.0.0"],"_phase1IntegrityAlgorithms":"SHA1","_phase1DhGroupNumbers":"20","_phase2EncryptionAlgorithms":"AES128","_phase2IntegrityAlgorithms":"SHA2-384","_ringcentralIpv4PrivateCidr":"10.1.0.0/28","_ikeVersions":"ikev1","_phase2DhGroupNumbers":"2"}
-}

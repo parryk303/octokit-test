@@ -1,6 +1,0 @@
-{
-    "documentURL": "https://test_url.com",
-    "connectivityType": "VPN",
-    "name": "12345-654864bf2dbbb917f9f5f601",
-    "projectData": {"fielddpdTimeoutAction":"restart","fieldcustomerIpv4PrivateCidr":"none","fieldrouting":"static","fieldcustomerGatewayBgpAsn":"65000","fieldphase1Lifetime":"3600","fieldphase2Lifetime":"3600","fieldrekeyMarginTime":"540","fieldrekeyFuzz":"100","fieldreplayWindow":"1024","fieldringCentralSubnet":"172.31.0.0/28"}
-}
