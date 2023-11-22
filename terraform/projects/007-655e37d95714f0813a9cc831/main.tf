@@ -31,7 +31,7 @@
       vpn_connection_local_ipv4_network_cidr              = none
       vpn_connection_remote_ipv4_network_cidr             = 172.31.0.0/27
       vpn_connection_static_routes_only                   = static
-      vpn_connection_startup_action                       = add
+      vpn_connection_startup_action                       = start
       vpn_connection_tunnel1_ike_versions                 = ikev1
 }
 
