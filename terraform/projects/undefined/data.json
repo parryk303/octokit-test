@@ -1,0 +1,6 @@
+{
+    "documentURL": "https://test_url.com",
+    "connectivityType": "VPC Peering",
+    "name": "",
+    "projectData": {"_vpcId":"w","_vpcCidr":["10.192.154.0/28"]}
+}
