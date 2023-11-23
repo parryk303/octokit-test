@@ -11,6 +11,5 @@
     authorizer_package_location = "lambdas_code/authorizer-lambda-code.zip"
 
     enable_vpn_build = false
-
 }
 
