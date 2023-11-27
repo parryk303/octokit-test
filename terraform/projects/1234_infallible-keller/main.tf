@@ -3,7 +3,7 @@
     source              = "../../module/main"
     name                = "1234_infallible-keller"
     env                 = var.env
-    cidr                = "[&#34;172.31.0.0/28&#34;]"
+    cidr                = "172.31.0.0/28"
     private_subnets     = Input is not an array
     public_subnets      = [""]
 
