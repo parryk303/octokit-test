@@ -1,7 +1,7 @@
 
   module "cloud_relay" {
     source              = "../../module/main"
-    name                = "12345_pedantic-haslett"
+    name                = "pedantic-haslett"
     env                 = var.env
     cidr                = "172.31.0.0/28"
     private_subnets     = ["172.31.0.0/28", "172.31.0.16/28"]
@@ -15,7 +15,7 @@
     vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
     vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA1"]
     vpn_connection_tunnel1_phase_1_lifetime             = "3600"
-    vpn_connection_tunnel1_phase1_dh_group_numbers      = [20]
+    vpn_connection_tunnel1_phase1_dh_group_numbers      = [19]
     vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES128"]
     vpn_connection_tunnel1_phase2_integrity_algorithms  = ["SHA2-256"]
     vpn_connection_tunnel1_phase_2_lifetime             = "3600"
