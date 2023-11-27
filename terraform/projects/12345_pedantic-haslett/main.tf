@@ -10,7 +10,7 @@
     relay_package_location      = "lambdas_code/relay-lambda-code.zip"
     authorizer_package_location = "lambdas_code/authorizer-lambda-code.zip"
 
-    vpn_connection_static_routes_destinations           = Input is not an array
+    vpn_connection_static_routes_destinations           = ["172.31.0.0/28"]
     customer_gateway_ip_address                         = ["172.31.0.0"]
     vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
     vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA1"]
@@ -19,7 +19,7 @@
     vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES128"]
     vpn_connection_tunnel1_phase2_integrity_algorithms  = ["SHA2-256"]
     vpn_connection_tunnel1_phase_2_lifetime             = "3600"
-    vpn_connection_tunnel1_phase2_dh_group_numbers      = [2]
+    vpn_connection_tunnel1_phase2_dh_group_numbers      = [15]
     vpn_connection_rekey_margin_time                    = 540
     vpn_connection_rekey_fuzz                           = 100
     vpn_connection_replay_window                        = 1024
