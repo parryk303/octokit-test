@@ -1,0 +1,6 @@
+{
+    "documentURL": "https://test_url.com",
+    "connectivityType": "Public IP",
+    "name": "1234_infallible-keller",
+    "projectData": {"_ringCentralSubnetPublicIp":"172.32.0.0/28","_cidrPublicIp":["172.31.0.0/28"],"_gatewayIpBackup":"172.31.0.16"}
+}
