@@ -2,5 +2,5 @@
     "documentURL": "https://test_url.com",
     "connectivityType": "Public IP",
     "name": "KINDRIDE",
-    "projectData": {"_ringCentralSubnetPublicIp":"10.1.0.0/28","_gatewayIpBackup":"172.31.0.16","_cidrPublicIp":["192.168.0.0/28"]}
+    "projectData": {"_ringCentralSubnetPublicIp":"192.168.0.0/28","_gatewayIpBackup":"172.31.0.16","_cidrPublicIp":["192.168.0.0/28"]}
 }
