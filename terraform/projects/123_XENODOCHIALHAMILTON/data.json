@@ -1,0 +1,6 @@
+{
+    "documentURL": "https://test_url.com",
+    "connectivityType": "VPN",
+    "name": "XENODOCHIALHAMILTON",
+    "projectData": {"_customerIpv4PrivateCidr":"none","_routing":"BGP","_customerGatewayBgpAsn":"65000","_phase1Lifetime":"3600","_phase2Lifetime":"3600","_rekeyMarginTime":"540","_rekeyFuzz":"100","_replayWindow":"1024","_startupAction":"add","_ringCentralSubnet":"172.31.0.0/28","_cidr":["172.31.0.0/28"],"_customerPublicIp":["172.31.0.0"],"_phase1EncryptionAlgorithms":"AES256","_phase1IntegrityAlgorithms":"SHA2-512","_phase1DhGroupNumbers":"19","_phase2EncryptionAlgorithms":"AES256","_phase2IntegrityAlgorithms":"SHA2-256","_phase2DhGroupNumbers":"16","_ikeVersions":"ikev1","_ringcentralIpv4PrivateCidr":"192.168.2.0/24"}
+}
