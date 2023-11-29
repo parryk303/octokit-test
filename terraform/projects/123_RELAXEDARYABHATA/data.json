@@ -2,5 +2,5 @@
     "documentURL": "https://test_url.com",
     "connectivityType": "VPC Peering",
     "name": "RELAXEDARYABHATA",
-    "projectData": {"_ringCentralSubnetVpcPeering":"192.168.0.0/28","_vpcId":"172.31.0.0","_cidrVpcPeering":["172.31.0.0/28"]}
+    "projectData": {"_ringCentralSubnetVpcPeering":"172.31.0.0/28","_vpcId":"172.31.0.0","_cidrVpcPeering":["172.31.0.0/28"]}
 }
