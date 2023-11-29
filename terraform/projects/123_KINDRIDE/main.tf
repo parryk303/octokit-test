@@ -4,8 +4,8 @@
     name                = "KINDRIDE"
     env                 = var.env
     cidr                = "192.168.0.0/28"
-    private_subnets     = ["10.1.0.0/28", "10.1.0.16/28"]
-    public_subnets      = ["10.1.0.0.32/27"]
+    private_subnets     = ["192.168.0.0/28", "192.168.0.16/28"]
+    public_subnets      = ["192.168.0.32/27"]
 
     relay_package_location      = "lambdas_code/relay-lambda-code.zip"
     authorizer_package_location = "lambdas_code/authorizer-lambda-code.zip"
