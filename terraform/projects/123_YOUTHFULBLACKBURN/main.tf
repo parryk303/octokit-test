@@ -3,7 +3,7 @@
     source              = "../../module/main"
     name                = "YOUTHFULBLACKBURN"
     env                 = var.env
-    cidr                = "172.31.0.0/28"
+    cidr                = "10.1.0.0/28"
     private_subnets     = ["10.1.0.0/28", "10.1.0.16/28"]
     public_subnets      = ["10.1.0.0.32/27"]
 
