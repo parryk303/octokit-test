@@ -9,7 +9,7 @@
     "_phase1Lifetime": "3600",
     "_phase2Lifetime": "3600",
     "_rekeyMarginTime": "540",
-    "_rekeyFuzz": "100",
+    "_rekeyFuzz": "1007",
     "_replayWindow": "1024",
     "_startupAction": "add",
     "_cidr": [
