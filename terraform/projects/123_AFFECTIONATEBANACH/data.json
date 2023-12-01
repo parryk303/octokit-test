@@ -1,0 +1,31 @@
+{
+    "branch": "123-6568db3a9e60cbda548fb78b",
+    "connectivityType": "VPN",
+    "name": "AFFECTIONATEBANACH",
+    "projectData": {
+    "_customerIpv4PrivateCidr": "192.168.2.0/24",
+    "_routing": "BGP",
+    "_customerGatewayBgpAsn": "65000",
+    "_phase1Lifetime": "3600",
+    "_phase2Lifetime": "3600",
+    "_rekeyMarginTime": "540",
+    "_rekeyFuzz": "100",
+    "_replayWindow": "1024",
+    "_startupAction": "start",
+    "_cidr": [
+        "192.168.0.0/26"
+    ],
+    "_ringCentralSubnet": "192.168.0.0/28",
+    "_customerPublicIp": [
+        "200.1.2.3"
+    ],
+    "_phase1EncryptionAlgorithms": "AES256",
+    "_phase1IntegrityAlgorithms": "SHA2-512",
+    "_phase1DhGroupNumbers": "24",
+    "_phase2EncryptionAlgorithms": "AES256",
+    "_phase2IntegrityAlgorithms": "SHA2-512",
+    "_phase2DhGroupNumbers": "24",
+    "_ikeVersions": "ikev2",
+    "_ringcentralIpv4PrivateCidr": "192.168.2.0/24"
+}
+}
