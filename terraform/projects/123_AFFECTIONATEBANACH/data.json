@@ -4,14 +4,14 @@
     "name": "AFFECTIONATEBANACH",
     "projectData": {
     "_customerIpv4PrivateCidr": "192.168.2.0/24",
-    "_routing": "BGP",
+    "_routing": "Static",
     "_customerGatewayBgpAsn": "65000",
     "_phase1Lifetime": "3600",
     "_phase2Lifetime": "3600",
     "_rekeyMarginTime": "540",
     "_rekeyFuzz": "100",
     "_replayWindow": "1024",
-    "_startupAction": "start",
+    "_startupAction": "add",
     "_cidr": [
         "192.168.0.0/26"
     ],
