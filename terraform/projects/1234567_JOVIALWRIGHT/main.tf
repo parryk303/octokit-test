@@ -12,7 +12,7 @@
 
     vpn_connection_static_routes_destinations           = ["none"]
     customer_gateway_ip_address                         = ["192.0.2.1"]
-    vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128"]
+    vpn_connection_tunnel1_phase1_encryption_algorithms = ["AES128-GCM-16"]
     vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA2-384"]
     vpn_connection_tunnel1_phase_1_lifetime             = "3600"
     vpn_connection_tunnel1_phase1_dh_group_numbers      = [19]
