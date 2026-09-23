@@ -1,0 +1,27 @@
+{
+    "branch": "123456-6ab3fe0b9e652b1ab706e34e",
+    "connectivityType": "VPN",
+    "name": "ZEALOUSHERTZ",
+    "projectData": {
+    "_customerIpv4PrivateCidr": "none",
+    "_routing": "static",
+    "_customerGatewayBgpAsn": "65000",
+    "_phase1Lifetime": "3600",
+    "_phase2Lifetime": "3600",
+    "_rekeyMarginTime": "540",
+    "_rekeyFuzz": "100",
+    "_replayWindow": "1024",
+    "_startupAction": "add",
+    "_customerPublicIp": [
+        "192.0.2.1"
+    ],
+    "_phase1EncryptionAlgorithms": "AES128",
+    "_phase1IntegrityAlgorithms": "SHA1",
+    "_ringCentralSubnet": "172.31.0.0/26",
+    "_phase1DhGroupNumbers": "5",
+    "_phase2EncryptionAlgorithms": "AES128",
+    "_phase2IntegrityAlgorithms": "SHA1",
+    "_phase2DhGroupNumbers": "14",
+    "_ikeVersions": "ikev1"
+}
+}
