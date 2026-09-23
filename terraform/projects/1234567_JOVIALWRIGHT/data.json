@@ -4,13 +4,13 @@
     "name": "JOVIALWRIGHT",
     "projectData": {
     "_customerIpv4PrivateCidr": "none",
-    "_routing": "static",
+    "_routing": "BGP",
     "_customerGatewayBgpAsn": "65000",
     "_phase1Lifetime": "3600",
     "_phase2Lifetime": "3600",
     "_rekeyMarginTime": "540",
-    "_rekeyFuzz": "100",
-    "_replayWindow": "1024",
+    "_rekeyFuzz": "105",
+    "_replayWindow": "1025",
     "_startupAction": "add",
     "_customerPublicIp": [
         "192.0.2.1"
