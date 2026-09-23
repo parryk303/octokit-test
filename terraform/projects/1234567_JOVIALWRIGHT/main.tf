@@ -16,7 +16,7 @@
     vpn_connection_tunnel1_phase1_integrity_algorithms  = ["SHA2-384"]
     vpn_connection_tunnel1_phase_1_lifetime             = "3600"
     vpn_connection_tunnel1_phase1_dh_group_numbers      = [19]
-    vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES256"]
+    vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES256-GCM-16"]
     vpn_connection_tunnel1_phase2_integrity_algorithms  = ["SHA2-256"]
     vpn_connection_tunnel1_phase_2_lifetime             = "3600"
     vpn_connection_tunnel1_phase2_dh_group_numbers      = [17]
