@@ -15,7 +15,7 @@
     "_customerPublicIp": [
         "192.0.2.1"
     ],
-    "_phase1EncryptionAlgorithms": "AES128",
+    "_phase1EncryptionAlgorithms": "AES128-GCM-16",
     "_phase1IntegrityAlgorithms": "SHA2-384",
     "_ringCentralSubnet": "172.31.0.0/26",
     "_phase1DhGroupNumbers": "19",
