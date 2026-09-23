@@ -18,7 +18,7 @@
     "_phase1EncryptionAlgorithms": "AES128",
     "_phase1IntegrityAlgorithms": "SHA2-384",
     "_ringCentralSubnet": "172.31.0.0/26",
-    "_phase1DhGroupNumbers": "14",
+    "_phase1DhGroupNumbers": "19",
     "_phase2EncryptionAlgorithms": "AES256",
     "_phase2IntegrityAlgorithms": "SHA2-256",
     "_phase2DhGroupNumbers": "17",
