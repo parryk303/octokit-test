@@ -21,10 +21,10 @@
     vpn_connection_tunnel1_phase_2_lifetime             = "3600"
     vpn_connection_tunnel1_phase2_dh_group_numbers      = [17]
     vpn_connection_rekey_margin_time                    = 540
-    vpn_connection_rekey_fuzz                           = 100
-    vpn_connection_replay_window                        = 1024
+    vpn_connection_rekey_fuzz                           = 105
+    vpn_connection_replay_window                        = 1025
     vpn_customer_gateway_bgp_asn                        = 65000
-    vpn_connection_static_routes_only                   = true
+    vpn_connection_static_routes_only                   = false
 }
 
 output "project_name" {
