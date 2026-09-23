@@ -4,7 +4,7 @@
     "name": "JOVIALWRIGHT",
     "projectData": {
     "_customerIpv4PrivateCidr": "none",
-    "_routing": "BGP",
+    "_routing": "Static",
     "_customerGatewayBgpAsn": "65000",
     "_phase1Lifetime": "3600",
     "_phase2Lifetime": "3600",
