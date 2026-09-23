@@ -22,6 +22,6 @@
     "_phase2EncryptionAlgorithms": "AES256-GCM-16",
     "_phase2IntegrityAlgorithms": "SHA2-256",
     "_phase2DhGroupNumbers": "17",
-    "_ikeVersions": "ikev2"
+    "_ikeVersions": "ikev1"
 }
 }
