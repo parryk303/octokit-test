@@ -19,7 +19,7 @@
     vpn_connection_tunnel1_phase2_encryption_algorithms = ["AES256-GCM-16"]
     vpn_connection_tunnel1_phase2_integrity_algorithms  = ["SHA2-256"]
     vpn_connection_tunnel1_phase_2_lifetime             = "3600"
-    vpn_connection_tunnel1_phase2_dh_group_numbers      = [20]
+    vpn_connection_tunnel1_phase2_dh_group_numbers      = [24]
     vpn_connection_rekey_margin_time                    = 540
     vpn_connection_rekey_fuzz                           = 105
     vpn_connection_replay_window                        = 1025
