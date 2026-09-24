@@ -1,0 +1,27 @@
+{
+    "branch": "1234567-6ab4c67dfe9ea9283747d447",
+    "connectivityType": "VPN",
+    "name": "CRAZYMOORE",
+    "projectData": {
+    "_customerIpv4PrivateCidr": "none",
+    "_routing": "Static",
+    "_customerGatewayBgpAsn": "65000",
+    "_phase1Lifetime": "3600",
+    "_phase2Lifetime": "3600",
+    "_rekeyMarginTime": "540",
+    "_rekeyFuzz": "105",
+    "_replayWindow": "1025",
+    "_startupAction": "add",
+    "_customerPublicIp": [
+        "192.0.2.1"
+    ],
+    "_phase1EncryptionAlgorithms": "AES128-GCM-16",
+    "_phase1IntegrityAlgorithms": "SHA2-384",
+    "_ringCentralSubnet": "10.192.154.0/26",
+    "_phase1DhGroupNumbers": "19",
+    "_phase2EncryptionAlgorithms": "AES256-GCM-16",
+    "_phase2IntegrityAlgorithms": "SHA2-256",
+    "_phase2DhGroupNumbers": "20",
+    "_ikeVersions": "ikev2"
+}
+}
