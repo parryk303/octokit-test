@@ -1,0 +1,20 @@
+{
+    "branch": "63017062023-6ab5f3f3fec366f2ea7cfa51",
+    "connectivityType": "VPN",
+    "name": "TRUSTINGWILBUR",
+    "projectData": {
+    "_customerPublicIp": [
+        "192.0.2.1"
+    ],
+    "_phase1EncryptionAlgorithms": "AES128",
+    "_phase1IntegrityAlgorithms": "SHA1",
+    "_ringCentralSubnet": "172.31.0.0/26",
+    "_phase1DhGroupNumbers": "14",
+    "_phase2EncryptionAlgorithms": "AES256",
+    "_phase2IntegrityAlgorithms": "SHA1",
+    "_phase2DhGroupNumbers": "18",
+    "_ikeVersions": "ikev2",
+    "_routing": "Static",
+    "_startupAction": "add"
+}
+}
