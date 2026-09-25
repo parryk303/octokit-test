@@ -21,7 +21,7 @@
     "_phase1DhGroupNumbers": "19",
     "_phase2EncryptionAlgorithms": "AES256-GCM-16",
     "_phase2IntegrityAlgorithms": "SHA2-256",
-    "_phase2DhGroupNumbers": "24",
+    "_phase2DhGroupNumbers": "23",
     "_ikeVersions": "ikev2"
 }
 }
