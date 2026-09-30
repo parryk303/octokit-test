@@ -1,0 +1,20 @@
+{
+    "branch": "63017062023-6abd66c373ba926069835079",
+    "connectivityType": "VPN",
+    "name": "DISTRACTEDJACKSON",
+    "projectData": {
+    "_phase1EncryptionAlgorithms": "AES256",
+    "_phase1IntegrityAlgorithms": "SHA1",
+    "_ringCentralSubnet": "10.1.0.0/26",
+    "_phase1DhGroupNumbers": "5",
+    "_phase2EncryptionAlgorithms": "AES256",
+    "_phase2IntegrityAlgorithms": "SHA1",
+    "_phase2DhGroupNumbers": "2",
+    "_ikeVersions": "ikev1",
+    "_routing": "BGP",
+    "_customerPublicIp": [
+        "192.0.2.1"
+    ],
+    "_startupAction": "add"
+}
+}
