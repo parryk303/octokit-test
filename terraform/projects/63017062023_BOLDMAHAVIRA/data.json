@@ -13,7 +13,7 @@
     "_phase2EncryptionAlgorithms": "AES128",
     "_phase2IntegrityAlgorithms": "SHA1",
     "_phase2DhGroupNumbers": "2",
-    "_ikeVersions": "ikev1",
+    "_ikeVersions": "ikev2",
     "_routing": "BGP",
     "_startupAction": "add"
 }
