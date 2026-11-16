@@ -1,0 +1,20 @@
+{
+    "branch": "123456789012-6ac69d52a67fd6ab8484ffe5",
+    "connectivityType": "VPN",
+    "name": "HOPEFULTHARP",
+    "projectData": {
+    "_phase1EncryptionAlgorithms": "AES128",
+    "_phase1IntegrityAlgorithms": "SHA1",
+    "_ringCentralSubnet": "172.31.0.0/26",
+    "_phase1DhGroupNumbers": "2",
+    "_phase2EncryptionAlgorithms": "AES256",
+    "_phase2IntegrityAlgorithms": "SHA1",
+    "_phase2DhGroupNumbers": "5",
+    "_ikeVersions": "ikev1",
+    "_routing": "BGP",
+    "_startupAction": "add",
+    "_customerPublicIp": [
+        "192.0.2.1"
+    ]
+}
+}
